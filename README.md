@@ -2,7 +2,7 @@
 
 
 ## Installation
-####This setup is based and tested with Ubuntu Precise 64 bit base box, with Vagrant 1.2.7 version (should be vorking with 1.3.4)
+####This setup is based and tested with Ubuntu Precise 64 bit base box, with Vagrant 1.2.7 version (works with 1.3.4 too now)
 
 * Install Vagrant using using the [installation instructions](http://docs.vagrantup.com/v2/installation/index.html)
 * Clone this repository
