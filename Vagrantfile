@@ -12,8 +12,8 @@ Vagrant.configure("2") do |config|
     "if [[ ! -f /apt-get-run ]]; then sudo apt-get update && sudo apt-get install -y puppet && sudo touch /apt-get-run; fi"
   config.ssh.private_key_path = "~/.ssh/id_rsa"
   config.vm.provider :rackspace do |os|
-    os.username = "mariusvus"
-    os.api_key = "7d26cfaa17f1b4cfddac7e81bd000901"
+    os.username = "Your_Rackspace_Username"
+    os.api_key = "Your_Rackspace_API_Key"
     os.compute_url = "https://lon.identity.api.rackspacecloud.com/v2.0/tcokens"
     os.flavor = /512MB/
     os.image = /Ubuntu 12.04/
