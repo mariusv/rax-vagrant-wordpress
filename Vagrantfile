@@ -20,7 +20,6 @@ Vagrant.configure("2") do |config|
     #os.keypair_name = ""
     os.server_name = "vagrant.example.com"
     os.public_key_path = "~/.ssh/id_rsa.pub"
-    os.tenant = "10024021"
 
     #config.vm.share_folder("vagrant-root", "/vagrant", ".", :nfs => true)
 
