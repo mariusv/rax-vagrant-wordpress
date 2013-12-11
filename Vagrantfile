@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider :rackspace do |os|
     os.username = "Your_Rackspace_Username"
     os.api_key = "Your_Rackspace_API_Key"
-    os.compute_url = "https://lon.identity.api.rackspacecloud.com/v2.0/tcokens"
+    os.compute_url = "https://lon.identity.api.rackspacecloud.com/v2.0/tokens"
     os.flavor = /512MB/
     os.image = /Ubuntu 12.04/
     #os.keypair_name = ""
