@@ -7,7 +7,7 @@
 * Install Vagrant using using the [installation instructions](http://docs.vagrantup.com/v2/installation/index.html)
 * Clone this repository
 
-    ```$ git clone https://github.com/MikeRogers0/vagrant-nginx-wordpress-puppet.git```
+    ```$ git clone https://github.com/mariusv/rax-vagrant-wordpress.git```
     
 * install git submodules
     ```$ git submodule update --init```
